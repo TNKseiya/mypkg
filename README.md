@@ -16,8 +16,10 @@ https://youtu.be/_2mut1DUNh4
 $roscore  
 $cd catkin_ws/src  
 $git clone https://github.com/TNKseiya/mypkg.git  
-$cd mypkg  
-$cd scripts  
+$cd ..  
+$catkin_make  
+$cd src  
+$cd mypkg/scripts  
 $chmod +x count.py  
 $chmod +x twice.py
 ~~~
